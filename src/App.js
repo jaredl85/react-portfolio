@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Home from './components/Home.js';
+import NeChiro from './components/NeChiro.js';
+import Portfolio from './components/Portfolio.js';
+import DogWithin from './components/DogWithin.js';
+import NuCamp from './components/NuCamp.js';
+import { Switch, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <ScrollToTop>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/nechiro' component={NeChiro} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/nucamp' component={NuCamp} />
+          <Route exact path='/dogwithin' component={DogWithin} />
+        </ScrollToTop>
+      </Switch>
     </div>
   );
 }
