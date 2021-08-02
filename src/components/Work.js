@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import NEC from './nec_splash.png';
 import PORT from './portfolio_splash.png';
 import TWD from './twd_splash.png';
@@ -17,7 +17,7 @@ class Work extends Component {
                         <div className="project-col">
                             <Link to='/nechiro'>
                                 <div className="project-box">
-                                    <img src={NEC} alt="northeast chiropractic project"/>
+                                    <img src={NEC} />
                                 </div>
                             </Link>
                         </div>
@@ -25,7 +25,7 @@ class Work extends Component {
                         <div className="project-col">
                             <Link to='/portfolio'>
                                 <div className="project-box">
-                                    <img src={PORT} alt="portfolio project"/>
+                                    <img src={PORT} />
                                 </div>
                             </Link>
                         </div>
@@ -35,7 +35,7 @@ class Work extends Component {
                         <div className="project-col">
                             <Link to='/nucamp'>
                                 <div className="project-box">
-                                    <img src={NUCAMP} alt="nucamp react project"/>
+                                    <img src={NUCAMP} />
                                 </div>
                             </Link>
                         </div>
@@ -43,7 +43,7 @@ class Work extends Component {
                         <div className="project-col">
                             <Link to='/dogwithin'>
                                 <div className="project-box">
-                                    <img src={TWD} alt="dog within project"/>
+                                    <img src={TWD} />
                                 </div>
                             </Link>
                         </div>

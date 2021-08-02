@@ -30,7 +30,7 @@ export default function About() {
                             I’m very familiar with HTML, CSS, and (vanilla) JavaScript. I’m still getting my feet wet with
                             the React library and I’m excited to continue learning and growing my skills.
                         </p>
-                        <a className="resume-btn" href="#home">See my resume</a>
+                        <a className="resume-btn" href="#">See my resume</a>
                     </div>
                 </div>
 
