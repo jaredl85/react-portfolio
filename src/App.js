@@ -14,11 +14,11 @@ function App() {
       <div className="App">
         <Switch>
           <ScrollToTop>
-            <Route path="/nechiro" component={NeChiro} />
-            <Route path="/dogwithin" component={DogWithin} />
-            <Route path="/nucamp" component={NuCamp} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/" component={Home} />
+            <Route exact path="/nechiro" component={NeChiro} />
+            <Route exact path="/dogwithin" component={DogWithin} />
+            <Route exact path="/nucamp" component={NuCamp} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/" component={Home} />
             <Redirect to="/" />
           </ScrollToTop>
         </Switch>
