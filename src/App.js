@@ -10,19 +10,20 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
     <BrowserRouter>
+    <div className="App">
         <Switch>
           <ScrollToTop>
-            <Route exact path="/nechiro" component={NeChiro} />
-            <Route exact path="/dogwithin" component={DogWithin} />
-            <Route exact path="/nucamp" component={NuCamp} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            <Route path="/nechiro" component={NeChiro} />
+            <Route path="/dogwithin" component={DogWithin} />
+            <Route path="/nucamp" component={NuCamp} />
+            <Route path="/portfolio" component={Portfolio} />
             <Route exact path="/" component={Home} />
+            <Redirect to='/' />
           </ScrollToTop>
         </Switch>
+        </div>
     </BrowserRouter>
-    </div>
   );
 }
 
