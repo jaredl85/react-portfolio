@@ -83,7 +83,6 @@ export default function NeChiro() {
                     <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
-                            <p><a href="#" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/nucampsite2" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>This website is a fully responsive single-page react application that has centralized state management, form validation, and routing.</p>
                         </div>

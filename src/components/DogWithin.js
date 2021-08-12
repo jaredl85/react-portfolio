@@ -12,7 +12,7 @@ import TWD_CONTACT from './images/twd_contact.png';
 import ProjectFooter from './ProjectFooter.js';
 import './projects.scss';
 
-export default function NeChiro() {
+export default function DogWithin() {
     return (
         <div className="project-page" id="project-page">
             <ProjectNav />
@@ -84,7 +84,7 @@ export default function NeChiro() {
                     <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
-                            <p><a href="#" className="project-page-link">See the final project</a></p>
+                            <p><a href="http://thedogwithin.com/" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/thedogwithin" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>The end result is a website that conveys essential information about The Dog Within in a way that is intentionally branded, user-friendly, responsive, and contains a fully functional contact form (meeting all of the client requirements).</p>
                             <p>Also of note, the owner of The Dog Within reported a significant increase in business as a result of having the site up and running.</p>

@@ -77,7 +77,7 @@ export default function NeChiro() {
                     <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
-                            <p><a href="#" className="project-page-link">See the final project</a></p>
+                            <p><a href="https://nechiro.netlify.app/" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/nechiro" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>My design preserves all of the information used in the Northeast Seattle Chiropractic website, but packages it in a mobile-friendly and aesthetically pleasing way.</p>
                         </div>

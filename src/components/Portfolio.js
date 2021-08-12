@@ -85,7 +85,7 @@ export default function Portfolio() {
                     <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
-                            <p><a href="#" className="project-page-link">See the final project</a></p>
+                            <p><a href="jaredl85.github.io/react-portfolio/" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/portfolio2" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>At the end of this project I ended up with a mobile-friendly portfolio project to showcase my work, built entirely using the React library (and, of course, a generous amount of SASS). I’m pleased to report that my portfolio site is very close to what I had envisioned during the design phase.</p>
                         </div>
