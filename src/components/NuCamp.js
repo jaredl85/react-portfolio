@@ -14,7 +14,7 @@ import NC_CONTACT from './images/nc_contact.png';
 import ProjectFooter from './ProjectFooter.js';
 import './projects.scss';
 
-export default function NeChiro() {
+export default function NuCamp() {
     return (
         <div className="project-page">
             <ProjectNav />

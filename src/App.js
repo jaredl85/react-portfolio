@@ -18,8 +18,8 @@ function App() {
             <Route path="/dogwithin" component={DogWithin} />
             <Route path="/nucamp" component={NuCamp} />
             <Route path="/portfolio" component={Portfolio} />
-            <Route exact path="/" component={Home} />
-            <Redirect to='/' />
+            <Route exact path="/react-portfolio" component={Home} />
+            <Redirect to='/react-portfolio' />
           </ScrollToTop>
         </Switch>
         </div>
