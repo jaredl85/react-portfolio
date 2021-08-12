@@ -16,7 +16,7 @@ export default function NeChiro() {
     return (
         <div className="project-page" id="project-page">
             <ProjectNav />
-            <h2>North Seattle Chiropractic</h2>
+            <h2>The Dog Within</h2>
             <div className="project-wrapper">
 
                 <div className="project-row">
