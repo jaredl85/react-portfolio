@@ -25,13 +25,7 @@ export default function NeChiro() {
                     <div className="project-col r-1">
                         <div className="project-box">
                             <h3>Project Goal</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>This was the main course website I constructed as part of the NuCamp React course, built using the React library (along with SASS and ReactStrap).</p>
                         </div>
                     </div>
                     <div className="project-col r-2">
@@ -69,13 +63,8 @@ export default function NeChiro() {
                     <div className="project-col r-5">
                         <div className="project-box">
                             <h3>Process and Challenges</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>This was built using a combination of code-along video tutorials and online workshops where I worked in small groups to pair-program aspects of the website.</p>
+                            <p>This project incorporates use of Reactstrap, React Router, React Redux for overall state management, and React Redux Form Control, for form validation.</p>
                         </div>
                     </div>
                     <div className="project-col r-6">
@@ -96,9 +85,7 @@ export default function NeChiro() {
                             <h3>Outcome</h3>
                             <p><a href="#" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/nucampsite2" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis.</p>
+                            <p>This website is a fully responsive single-page react application that has centralized state management, form validation, and routing.</p>
                         </div>
                     </div>
                 </div>

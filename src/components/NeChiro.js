@@ -22,13 +22,7 @@ export default function NeChiro() {
                     <div className="project-col r-1">
                         <div className="project-box">
                             <h3>Project Goal</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>As the portfolio project for my bootstrap course with NuCamp, I redesigned the website for Northeast Seattle Chiropractic, a chiropractic practice located in my neighborhood.</p>
                         </div>
                     </div>
                     <div className="project-col r-2">
@@ -63,13 +57,8 @@ export default function NeChiro() {
                     <div className="project-col r-5">
                         <div className="project-box">
                             <h3>Process and Challenges</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>Using the written content and images from the website, I re-designed the website for Northeast Seattle Chiropractic, using the bootstrap framework. Though bootstrap is powerful, I also added plenty of my own CSS styles in order to get the design exactly where I wanted it (for example, there are several parallax effects implemented in the site).</p>
+                            <p>I also implemented some basic jQuery for the navbar, so that it would change its appearance after leaving the main splash area.</p>
                         </div>
                     </div>
                     <div className="project-col r-6">
@@ -90,9 +79,7 @@ export default function NeChiro() {
                             <h3>Outcome</h3>
                             <p><a href="#" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/nechiro" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis.</p>
+                            <p>My design preserves all of the information used in the Northeast Seattle Chiropractic website, but packages it in a mobile-friendly and aesthetically pleasing way.</p>
                         </div>
                     </div>
                 </div>

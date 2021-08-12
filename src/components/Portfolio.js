@@ -25,13 +25,7 @@ export default function Portfolio() {
                     <div className="project-col r-1">
                         <div className="project-box">
                             <h3>Project Goal</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>This was my final project for the NuCamp React course. My goal was to design and implement an aesthetically-pleasing and mobile-friendly portfolio using the React library.</p>
                         </div>
                     </div>
                     <div className="project-col r-2">
@@ -69,13 +63,10 @@ export default function Portfolio() {
                     <div className="project-col r-5">
                         <div className="project-box">
                             <h3>Process and Challenges</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis. Proin sit amet sodales sapien,
-                                nec ultricies leo. Morbi id lacinia nisi, sit amet egestas arcu. Etiam id hendrerit nisl.
-                                Cras in sollicitudin est, ac efficitur diam. Cras at leo mauris. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac elit a nunc aliquam
-                                convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
+                            <p>My process was first to conduct a competitive analysis of other web development portfolio sites. My goal here was to get a sense of what I personally liked, design ideas, and design choices that might be less effective for my goals. Once I had looked through quite a few portfolios, I mocked up my own, using Wireframe.cc. I put together a color palette and fonts for the site.</p>
+                            <p>The process of coding was challenging in the early stages of this project. I quickly realized how much I still didn’t know. However, learning React through the process of actually developing with it is immensely rewarding - looking back, I’m grateful for the challenges I ran into. I feel that I now have a much stronger grasp on how to use the React library to develop a project from start to finish.</p>
+                            <p>The deployment process ended up taking quite a bit longer than I had initially anticipated, as I ran into issues with hosting my build files. However, after going through the process of debugging my application, I managed to fix the errors that were preventing my app from properly rendering (it wound up being an issue with how I’d implemented my Routing, which I was able to fix quickly once it had been identified).</p>
+                            <p>However, this wasn’t time wasted - I learned a lot about debugging, how JSON files are used, and how to Google more effectively.</p>
                         </div>
                     </div>
                     <div className="project-col r-6">
@@ -96,9 +87,7 @@ export default function Portfolio() {
                             <h3>Outcome</h3>
                             <p><a href="#" className="project-page-link">See the final project</a></p>
                             <p><a href="https://github.com/jaredl85/portfolio2" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
-                                id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
-                                in dui. Praesent vel varius tellus, nec tristique turpis.</p>
+                            <p>At the end of this project I ended up with a mobile-friendly portfolio project to showcase my work, built entirely using the React library (and, of course, a generous amount of SASS). I’m pleased to report that my portfolio site is very close to what I had envisioned during the design phase.</p>
                         </div>
                     </div>
                 </div>
