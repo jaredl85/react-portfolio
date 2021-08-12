@@ -4,13 +4,13 @@ import NeChiro from "./components/NeChiro.js";
 import Portfolio from "./components/Portfolio.js";
 import DogWithin from "./components/DogWithin.js";
 import NuCamp from "./components/NuCamp.js";
-import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
+import { Switch, Route, HashRouter, Redirect } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
         <Switch>
           <ScrollToTop>
@@ -23,7 +23,7 @@ function App() {
           </ScrollToTop>
         </Switch>
         </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
